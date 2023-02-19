@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+/* 
+******************************************
+MAIN SECTIONS
+******************************************
+*/
+
+main {
+  border: 1px solid black;
+  height: 800px;
+  width: 100%;
+}
+
+.top {
+  height: 40%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%) 0%,
+    hsl(241, 81%, 54%) 60%
+  );
+  border-radius: 0px 0px 30px 30px;
+}
+
+.bottom {
+  border: 1px solid red;
+  height: 60%;
+  width: 100%;
+}
+
+/* 
+******************************************
+TOP ITEMS
+******************************************
+*/
+
+.top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.your-title {
+  width: 100px;
+  height: 40px;
+  border: 1px solid green;
+}
+
+.result-box {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(
+    to bottom,
+    rgba(78, 33, 202, 0.712) 0%,
+    hsla(241, 72%, 46%, 0.651) 100%
+  );
+
+  border-radius: 50%;
+}
+
+.result-text {
+  width: 80%;
+  height: 100px;
+  border: 1px solid aqua;
+}
+
+.result-word {
+  border: 1px solid red;
+  height: 20px;
+}
+
+.result-performance {
+  border: 1px solid yellow;
+  height: 50px;
+}
+
+/* 
+******************************************
+BOTTOM ITEMS
+******************************************
+*/
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.summary {
+  width: 80%;
+  height: 40px;
+  border: 1px solid darkcyan;
+}
+
+.category {
+  width: 100%;
+  height: 350px;
+  border: 1px solid brown;
+}
+
+.category-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid black;
+  height: 70px;
+  margin-top: 20px;
+}
+
+.category-item p {
+  margin-right: 20px;
+}
+
+.description {
+  display: flex;
+  margin: 0 10px;
+  align-items: center;
+}
+
+.description p {
+  margin: 10px;
+}
+
+.category-item img {
+  width: 30px;
+}
+
+.continue-btn {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border: 1px solid blue;
+  border-radius: 100px;
+}
